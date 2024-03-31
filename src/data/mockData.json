@@ -1,0 +1,37 @@
+[
+    {
+        "full_name": "Nguyễn Văn A",
+        "age": 15,
+        "avatar": "avatar1.jpg",
+        "address": "Số 1, Đường ABC, Quận XYZ, Thành phố HCM",
+        "schools": "Trường THPT A"
+    },
+    {
+        "full_name": "Trần Thị B",
+        "age": 16,
+        "avatar": "avatar2.jpg",
+        "address": "Số 2, Đường XYZ, Quận ABC, Thành phố HCM",
+        "schools": "Trường THPT C"
+    },
+    {
+        "full_name": "Lê Văn C",
+        "age": 14,
+        "avatar": "avatar3.jpg",
+        "address": "Số 3, Đường DEF, Quận MNO, Thành phố HCM",
+        "schools": "Trường THCS D"
+    },
+    {
+        "full_name": "Phạm Thị D",
+        "age": 15,
+        "avatar": "avatar4.jpg",
+        "address": "Số 4, Đường UVW, Quận PQR, Thành phố HCM",
+        "schools": "Trường THCS E"
+    },
+    {
+        "full_name": "Hoàng Văn E",
+        "age": 16,
+        "avatar": "avatar5.jpg",
+        "address": "Số 5, Đường GHI, Quận STU, Thành phố HCM",
+        "schools": "Trường THPT F"
+    }
+]

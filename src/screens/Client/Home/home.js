@@ -8,7 +8,7 @@ import {
 import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js";
 const name_user = document.querySelector(".name_user");
 const token = localStorage.getItem("token");
-
+const btn_logout = document.querySelector(".btn_logout");
 if (!token) {
   window.location.href = "../Auth/Login/login.html";
 }
@@ -38,7 +38,7 @@ const logout = () => {
   window.location.href = "../Auth/Login/login.html";
 };
 
-logout();
+btn_logout.addEventListener("click", logout);
 
 onAuthStateChanged(auth, async (user) => {
   if (user) {

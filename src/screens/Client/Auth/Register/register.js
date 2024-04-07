@@ -8,6 +8,7 @@ import {
   setDoc,
   doc,
 } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
+import { role } from "../../../../contains/index.js";
 
 // querySelector: dùng để lấy element trong html ~~ document.getElementById
 const form = document.querySelector(".form_login");
@@ -30,10 +31,14 @@ async function registerUser(e) {
       target.name.value = "";
     }
     try {
-      await setDoc(doc(dbFireStore, "users", user.uid), {
+      await setDoc(doc(dbFireStore, role.user, user.uid), {
         email,
         name,
         id: user.uid,
+        status: {
+          role: "user",
+          active: true,
+        },
       });
     } catch (error) {
       alert(error.message);

@@ -1,6 +1,11 @@
-const getData = async (url) => {
-    const data = await fetch(`${url}`);
-    return data
-}
+const role = {
+  admin: "admin",
+  user: "users",
+};
 
-export {getData};
+const getData = async (url) => {
+  const data = await fetch(`${url}`);
+  return data;
+};
+
+export { getData, role };

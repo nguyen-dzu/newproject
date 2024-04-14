@@ -6,6 +6,16 @@
     box-sizing: border-box;
 }
 
+textarea {
+    color: var(--black);
+    border: none;
+    cursor: pointer;
+    border: 1px solid var(--black);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px !important;
+}
+
 button {
     background-color: var(--black);
     color: var(--white);
